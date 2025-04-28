@@ -55,9 +55,9 @@ _The legal assistant you never knew you needed, but always wanted._
 
 | Feature              | Screenshot                            |
 |----------------------|----------------------------------------|
-| **Home Page**        | ![Home Page](assets/homepage.png)      |
-| **Search Results**   | ![Search Results](assets/search_results.png) |
-| **Case Summary**     | ![Case Summary](assets/case_summary.png) |
+| **Home Page**        | ![Home Page](Assets/homepage.png)      |
+| **Search Results**   | ![Search Results](Assets/search_results.png) |
+| **Case Summary**     | ![Case Summary](Assets/case_summary.png) |
 
 
 ---
