@@ -1,22 +1,79 @@
 # Vakeel AI  
-(deployment link - https://vercel.com/abhishek1501kholiyas-projects/vakeel-ai/E812jcwkfEUyTYzEcNRCdfzdE86S)
-The legal assistant you never knew but always wanted  
 
-## Key Features  
-- Deep Legal Research (Search through lakhs of real court judgments across the Supreme Court, High Courts, and District Courts.)  
-- Ai Case Summaries (No more legal jargon. Easy to understand summaries tailored for lawyers & common man.)  
-- Ask questions in simple language (“find me a fake domestic violence case”)  
-- Auto Generated Case Notes ("Converts your research into citation ready notes. Saving hours of prep for lawyers.")  
+_The legal assistant you never knew you needed, but always wanted._
 
-## Tech Stack  
-- Frontend (Next.js & CSS)  
-- Authentication & Storage (Firebase & MongoDB)  
-- Ai & Apis (Gemini & Indian Kanoon)  
+[![Built with Next.js](https://img.shields.io/badge/Built%20with-Next.js-black?style=for-the-badge&logo=next.js)](https://nextjs.org/)  
+[![Made with Firebase](https://img.shields.io/badge/Backend-Firebase-orange?style=for-the-badge&logo=firebase)](https://firebase.google.com/)  
+[![Powered by OpenAI](https://img.shields.io/badge/AI-OpenAI-8756fd?style=for-the-badge&logo=openai)](https://openai.com/)  
+[![Database MongoDB](https://img.shields.io/badge/Database-MongoDB-47A248?style=for-the-badge&logo=mongodb)](https://www.mongodb.com/)  
 
-## Subscription Plans -   
-- Common Man (0 rupees per month)  
-- Attorney's plan (499 per month)  
-- Enterprise's plan (399 per member)  
+---
+
+## 🚀 Overview  
+**Vakeel AI** is an AI-powered legal research assistant designed to make the Indian legal ecosystem faster, smarter, and more accessible. Search millions of real court judgments, get simplified case summaries, ask legal questions in natural language, and generate citation-ready case notes in minutes.
+
+---
+
+## ✨ Key Features  
+- **Deep Legal Research**  
+  Search through lakhs of real court judgments across the Supreme Court, High Courts, and District Courts.  
+- **AI Case Summaries**  
+  No more legal jargon — get easy-to-understand summaries tailored for lawyers and the common man.  
+- **Simple Language Query**  
+  Ask legal questions like: _"Find me a fake domestic violence case"_ and get relevant judgments.  
+- **Auto-Generated Case Notes**  
+  Instantly convert your research into well-structured, citation-ready notes, saving hours of prep for lawyers.
+
+---
+
+## 🛠️ Tech Stack  
+- **Frontend**: Next.js & CSS  
+- **Authentication & Storage**: Firebase & MongoDB  
+- **AI & APIs**: Gemini, OpenAI, Indian Kanoon  
+
+---
+
+## 💳 Subscription Plans  
+- **Common Man**: ₹0 / month  
+- **Attorney's Plan**: ₹499 / month  
+- **Enterprise Plan**: ₹399 / member  
+
+---
+
+## ⚙️ How It Works
+1. **Sign Up / Log In**: Create an account using simple authentication (via Firebase).  
+2. **Search & Discover**: Use AI-powered search to explore millions of case judgments.  
+3. **Ask & Understand**: Input your questions in plain English — the AI fetches and simplifies the results.  
+4. **Generate Notes**: Save your research into auto-generated case notes, ready for court or case preparations.  
+5. **Upgrade Anytime**: Unlock premium features with easy subscription plans for lawyers and law firms.
+
+---
+
+## 📸 Screenshots  
+<details>
+  <summary>Click to view Screenshots</summary>
+
+| Feature              | Screenshot                            |
+|----------------------|----------------------------------------|
+| **Home Page**        | ![Home Page](assets/homepage.png)      |
+| **Search Results**   | ![Search Results](assets/search_results.png) |
+| **Case Summary**     | ![Case Summary](assets/case_summary.png) |
 
 
-Made with love by ashish nagar and abhishek kholiya
+---
+
+## ❤️ Made with love by Team Pallets  
+
+---
+
+## 🤝 Contributors  
+Thanks to these amazing people for bringing Vakeel AI to life!
+
+| Name               | Role                          |
+|--------------------|-------------------------------|
+| **Ashish Kumar**    | Fullstack Developer           |
+| **Gauri Pandey**    | Frontend Developer            |
+| **Aditya Maitrey**  | AI Developer (AI Guy)          |
+| **Meghna Kandpal**  | Authentication & Database Expert |
+
+---
