@@ -8,7 +8,8 @@ const MessageSchema = new mongoose.Schema({
     content: { type: String },
     file:{type:String},
     type:{type:String},
-    messageTime:{type:Date}
+    messageTime:{type:Date},
+    viewMore:{type:Boolean,default:false}
     
 }, { timestamps: true });
 

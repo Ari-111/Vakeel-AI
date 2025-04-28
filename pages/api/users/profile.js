@@ -1,4 +1,4 @@
-import dbConnect from '@/lib/mongodb';
+import mongoose from 'mongoose';
 import User from '@/models/user.js';
 
 export default async function handler(req, res) {
@@ -7,7 +7,8 @@ export default async function handler(req, res) {
   }
 
   try {
-    await dbConnect();
+    console.log("MONGODB_URI =>", process.env.NEXT_PUBLIC_FIREBASE_API_KEY);
+    await mongoose.connect(process.env.NEXT_PUBLIC_MONGODB_URI);
 
     const { username, dateOfBirth, firebaseUid } = req.body;
 

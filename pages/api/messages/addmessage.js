@@ -6,7 +6,7 @@ import MessageSchema from '@/models/message.js';
 const handler = async (req, res) => {
     await dbConnect();
     if (req.method === "POST") {
-        const { conversationID, userUID, sender, content, file, type, messageTime} = req.body;
+        const { conversationID, userUID, sender, content, file, type, messageTime,viewMore} = req.body;
 
         try {
             const message = new MessageSchema({
@@ -16,7 +16,8 @@ const handler = async (req, res) => {
                 content: content,
                 file:file,
                 type:type,
-                messageTime:messageTime
+                messageTime:messageTime,
+                viewMore:viewMore
             });
 
             await message.save();

@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef } from 'react';
+import { useState, useEffect } from 'react';
 import { useRouter } from 'next/router';
 import Image from 'next/image';
 import { useAuth } from '../context/AuthContext';
@@ -12,9 +12,6 @@ export default function ProfileSetup() {
     username: '',
     dateOfBirth: '',
   });
-  const [selectedImage, setSelectedImage] = useState(null);
-  const [imagePreview, setImagePreview] = useState(null);
-  const fileInputRef = useRef(null);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState('');
 
@@ -31,45 +28,16 @@ export default function ProfileSetup() {
 
 
 
-  const handleImageChange = (e) => {
-    const file = e.target.files[0];
-    if (file) {
-      setSelectedImage(file);
-      setImagePreview(URL.createObjectURL(file));
-    }
-  };
-
   const handleSubmit = async (e) => {
     e.preventDefault();
     setLoading(true);
     setError('');
 
     try {
-      // First, upload the profile picture if selected
-      let profilePictureUrl = '';
-      if (selectedImage) {
-        const imageFormData = new FormData();
-        imageFormData.append('profilePicture', selectedImage);
-        imageFormData.append('firebaseUid', user.uid);
-
-        const imageResponse = await fetch('/api/users/upload-profile-picture', {
-          method: 'POST',
-          body: imageFormData,
-        });
-
-        if (!imageResponse.ok) {
-          throw new Error('Failed to upload profile picture');
-        }
-
-        const imageData = await imageResponse.json();
-        profilePictureUrl = imageData.profilePicture;
-      }
-
       const formDataToSend = {
         username: formData.username,
         dateOfBirth: formData.dateOfBirth,
-        firebaseUid: user.uid,
-        profilePicture: profilePictureUrl
+        firebaseUid: user.uid
       };
 
       const response = await fetch('/api/users/profile', {
@@ -117,23 +85,12 @@ export default function ProfileSetup() {
           <div className={styles.cardHeader}>
             <div className={styles.logo}>
               <Image
-                src={imagePreview || "/advocate.png"}
-                alt="Profile Picture"
+                src="/advocate.png"
+                alt="Advocate"
                 width={120}
                 height={120}
                 priority
-                className={styles.profileImage}
-                onClick={() => fileInputRef.current?.click()}
-                style={{ cursor: 'pointer', borderRadius: '50%' }}
               />
-              <input
-                type="file"
-                ref={fileInputRef}
-                onChange={handleImageChange}
-                accept="image/*"
-                style={{ display: 'none' }}
-              />
-              <p className={styles.uploadText}>Click to upload profile picture</p>
             </div>
             <h2>Complete Your Profile</h2>
           </div>
