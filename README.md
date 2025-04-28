@@ -2,11 +2,6 @@
 
 _The legal assistant you never knew you needed, but always wanted._
 
-[![Built with Next.js](https://img.shields.io/badge/Built%20with-Next.js-black?style=for-the-badge&logo=next.js)](https://nextjs.org/)  
-[![Made with Firebase](https://img.shields.io/badge/Backend-Firebase-orange?style=for-the-badge&logo=firebase)](https://firebase.google.com/)  
-[![Powered by OpenAI](https://img.shields.io/badge/AI-OpenAI-8756fd?style=for-the-badge&logo=openai)](https://openai.com/)  
-[![Database MongoDB](https://img.shields.io/badge/Database-MongoDB-47A248?style=for-the-badge&logo=mongodb)](https://www.mongodb.com/)  
-
 ---
 
 ## 🚀 Overview  
