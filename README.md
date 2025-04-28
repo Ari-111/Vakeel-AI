@@ -50,19 +50,12 @@ _The legal assistant you never knew you needed, but always wanted._
 ---
 
 ## 📸 Screenshots  
-<details>
-  <summary>Click to view Screenshots</summary>
 
 | Feature              | Screenshot                            |
 |----------------------|----------------------------------------|
 | **Home Page**        | ![Home Page](Assets/homepage.png)      |
 | **Search Results**   | ![Search Results](Assets/search_results.png) |
 | **Case Summary**     | ![Case Summary](Assets/case_summary.png) |
-
-
----
-
-## ❤️ Made with love by Team Pallets  
 
 ---
 
@@ -77,3 +70,5 @@ Thanks to these amazing people for bringing Vakeel AI to life!
 | **Meghna Kandpal**  | Authentication & Database Expert |
 
 ---
+
+## ❤️ Made with love by Team Pallets  
