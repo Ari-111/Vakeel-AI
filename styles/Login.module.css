@@ -1,0 +1,166 @@
+.container {
+    display: flex;
+    min-height: 100vh;
+    background-color: var(--background-dark);
+    color: var(--text-color);
+   
+  }
+  
+  .leftSection {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    background-color: var(--background);
+    color: var(--foreground);
+    background-image: url('/signup_image.png');
+  }
+  
+  .leftSection .title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    text-align: center;
+    font-family: "Istok Web", sans-serif;
+    font-weight: 500;
+  }
+  
+  .typingText {
+    margin-top: 1rem;
+    font-size: 1.4rem;
+    text-align: center;
+    color: var(--text-color);
+    font-family: "Istok Web", sans-serif;
+    font-weight: 500;
+    color: #7862FF;
+  }
+  
+  .rightSection {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    background-color:#FFFFFF;
+  }
+  
+  .loginCard {
+    background-color: #F1F1F1;
+    border: 1px solid var(--border-color);
+    border-radius: 10px;
+    padding: 2.5rem;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    
+    
+  }
+  
+  .subtitle {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    text-align: center;
+    color: black;
+    font-family: "Istok Web", sans-serif;
+    font-weight: 500;
+   
+  }
+  
+  .form {
+    width: 100%;
+  }
+  
+  .input {
+    width: 100%;
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    border: 1px solid var(--border-color);
+    background-color: rgba(255, 255, 255, 0.1);
+    color: var(--text-color);
+    font-size: 1rem;
+   
+  }
+
+  .input::placeholder{
+    font-family: "Istok Web", sans-serif;
+    font-weight: 500;
+  }
+  
+  .input:focus {
+    outline: none;
+    border-color: var(--primary-color);
+  }
+  
+  .error {
+    color: #ff4444;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  
+  .buttonContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .button {
+    width: 100%;
+    padding: 0.75rem;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    
+  }
+  
+  .primaryButton {
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+  }
+  
+  .primaryButton:hover {
+    background-color: var(--primary-hover);
+  }
+  
+  .secondaryButton {
+    background-color: transparent;
+    color: var(--text-color);
+    border: 1px solid var(--border-color);
+  }
+  
+  .secondaryButton:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  
+  .googleButton {
+    background-color: #4285f4;
+    color: white;
+    border: none;
+  }
+  
+  .googleButton:hover {
+    background-color: #357ae8;
+  }
+  
+  .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1.5rem; /* Add spacing below the logo */
+  }
+  
+  @media (max-width: 600px) {
+    .loginCard {
+      padding: 1.5rem;
+    }
+  
+    .title {
+      font-size: 1.5rem;
+    }
+  }
