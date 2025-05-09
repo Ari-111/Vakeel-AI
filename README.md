@@ -1,4 +1,4 @@
-# Vakeel AI  
+# Vakeel AI  (Website - https://vakeel-ai.vercel.app/)
 
 _The legal assistant you never knew you needed, but always wanted._
 
@@ -8,6 +8,9 @@ _The legal assistant you never knew you needed, but always wanted._
 **Vakeel AI** is an AI-powered legal research assistant designed to make the Indian legal ecosystem faster, smarter, and more accessible. Search millions of real court judgments, get simplified case summaries, ask legal questions in natural language, and generate citation-ready case notes in minutes.
 
 ---
+
+## 📺 Demo-video 
+  - https://youtu.be/wT9OfX2xYgg
 
 ## ✨ Key Features  
 - **Deep Legal Research**  
