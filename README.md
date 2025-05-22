@@ -63,6 +63,7 @@ Thanks to these amazing people for bringing Vakeel AI to life!
 | Name               | Role                          |
 |--------------------|-------------------------------|
 | **Ashish Kumar**    | Fullstack Developer           |
+| **Yuvraj Sharma**   | Frontend Developer           |
 | **Gauri Pandey**    | Frontend Developer            |
 | **Aditya Maitrey**  | AI Developer (AI Guy)          |
 | **Meghna Kandpal**  | Authentication & Database Expert |
